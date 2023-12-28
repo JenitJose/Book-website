@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Book Webssite </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!--header section starts-->
+
+     <header>
+        <a href="#" class="header-logo"><i class="fa-solid fa-book"></i>Book Verse Hub</a>
+
+        <nav class=" header-navbar">
+            <a  class="active"  href="#home">Home</a>
+            <a href="#books">Books</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="review">Review</a>
+            <a href="#order">order</a>
+
+        </nav>
+
+        <div class="header-icons">
+            <i class="fas fa-bars" id="menu-bar" onclick="" ></i>
+            <i class="fas fa-search" id="search-icon" onclick="openSearch()" ></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+
+        </div>
+
+    </header>
+
+
+
+
+
+
+      <!--header section ends-->
+
+       <!--search section starts-->
+
+      <div id="myOverlay" class="overlay">
+        <a class="closebtn" onclick="closeSearch()" title="Close Overlay">X</a>
+        <div class="overlay-content">
+            <form action="action_page.php">
+                <input type="text" placeholder="Search" name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+
+        </div>
+    </div>
+
+      <!--search section ends-->
+
+
+        <!--home section starts-->
+    <section class="home" id="home">
+          <div class="swiper  home-slider">
+            
+            
+            
+            <div class="swiper-wrapper home-wrapper">
+
+
+               
+
+
+
+             <div class="swiper-slide home-slide">
+                    <div class="home-content">
+                        <span>Books</span>
+                        <h3>Malayalam Books</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora minima autem magnam.</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                     
+                     
+                 <div class="home-image">
+                        <img src="Malayalam_Short_Stories_amp_Novels1696671126598.jpg" alt="">
+                 </div>
+             </div>
+
+
+                   <div class="swiper-slide home-slide">
+                        <div class="home-content">
+                            <span>Books</span>
+                            <h3>Hindi Books</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora minima autem magnam.</p>
+                            <a href="#" class="btn">order now</a>
+                        </div>
+                         
+                         
+                          <div class="home-image">
+                            <img src="hindhi.jpeg" alt="">
+                          </div>
+                    </div>
+
+
+
+
+
+                    <div class="swiper-slide home-slide">
+                        <div class="home-content">
+                            <span>Books</span>
+                            <h3>English Books</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora minima autem magnam.</p>
+                            <a href="#" class="btn">order now</a>
+                        </div>
+                         
+                         
+                          <div class="home-image">
+                            <img src="english-novel-books.jpg" alt="">
+                          </div>
+                    </div>
+
+                   
+    
+    
+            </div>
+    
+            
+            </div> 
+            
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section>
+
+
+
+
+    <!--home section ends-->
+
+
+         <!--dishes section starts-->
+
+         <section class="books" id="books"> 
+
+            <h3 class="sub-heading">Books in different languages</h3>
+            <h1 class="heading"> Bestselling Books</h1>
+    
+            <div class="books-box-container">
+    
+                <div class="books-box">
+    
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="daivathinte.jpg" alt="">
+                   
+    
+    
+                    <div class="books-starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"> </i>
+                    </div>
+                    <span>250.Rs</span>
+                    <a href="#" class="btn">add to cart</a>
+    
+                </div>
+    
+    
+    
+                <div class="books-box">
+    
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="harry-potter-and-the-philosophers-333.png" alt="">
+                   
+    
+    
+                    <div class="books-starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"> </i>
+                    </div>
+                    <span>400.Rs</span>
+                    <a href="#" class="btn">add to cart</a>
+    
+                </div>
+    
+    
+    
+                <div class="books-box">
+    
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="two hindhi.jpg" alt="">
+                   
+    
+    
+                    <div class="books-starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"> </i>
+                    </div>
+                    <span>170.Rs</span>
+                    <a href="#" class="btn">add to cart</a>
+    
+                </div>
+    
+    
+    
+                <div class="books-box">
+    
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="al arebian.jpg" alt="">
+                   
+    
+    
+                    <div class="books-starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"> </i>
+                    </div>
+                    <span>399.Rs</span>
+                    <a href="#" class="btn">add to cart</a>
+    
+                </div>
+    
+    
+    
+    
+    
+                <div class="books-box">
+    
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="one-indian-girl-hindi-original-imaerx44vuehzchg.jpeg.webp" alt="">
+                   
+    
+    
+                    <div class="books-starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"> </i>
+                    </div>
+                    <span>125.Rs</span>
+                    <a href="#" class="btn">add to cart</a>
+    
+                </div>
+    
+    
+    
+    
+                <div class="books-box">
+    
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="ikkigai.jpg" alt="">
+                    
+    
+    
+                    <div class="books-starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"> </i>
+                    </div>
+                    <span>240.Rs</span>
+                    <a href="#" class="btn">add to cart</a>
+    
+                </div>
+    
+    
+    
+                <div class="books-box">
+    
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="shawshank.jpg" alt="">
+                   
+    
+    
+                    <div class="books-starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"> </i>
+                    </div>
+                    <span>190.Rs</span>
+                    <a href="#" class="btn">add to cart</a>
+    
+                </div>
+    
+    
+    
+                <div class="books-box">
+    
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="francise.jpg" alt="">
+                   
+    
+    
+                    <div class="books-starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"> </i>
+                    </div>
+                    <span>330.Rs</span>
+                    <a href="#" class="btn">add to cart</a>
+    
+                </div>
+    
+    
+    
+    
+    
+    
+    
+            </div>
+    
+         </section>
+    
+    
+          <!--dishes section ends-->
+
+
+
+          <!--about section starts-->
+
+       <section class="about" id="about"> 
+            
+        <h3 class="sub-heading">about us</h3>
+        <h1 class="heading">why choose us</h1>
+
+        <div class="about-row">
+
+
+         <div class="about-image">
+             <img src="books_4.jpg" alt="">
+          </div>
+
+          <div class="about-content">
+             <h3>best Books delivery in the country</h3>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas provident consequuntur ab ea iusto quaerat et quidem quisquam iste corporis? Quo corporis nostrum ea vitae similique? Quidem perspiciatis a corrupti?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, ipsam in? Itaque aut ab dolorum nulla, expedita incidunt distinctio eaque praesentium consequuntur voluptatibus tempora quaerat id nostrum qui earum necessitatibus?</p>
+           
+            <div class="about-icons-container">
+             <div class="about-icons">
+                 <i class=" fas fa-shipping-fast"></i>
+                 <span>free delivery</span>
+             </div>
+
+             <div class="about-icons">
+                 <i class=" fas fa-dollar-sign"></i>
+                 <span>easy payments</span>
+             </div>
+
+             <div class="about-icons">
+                 <i class=" fas fa-headset"></i>
+                 <span>24/7 service</span>
+             </div>
+
+            </div>
+
+            <a href="#" class="btn" >Learn more</a>
+ 
+
+         
+         </div>
+
+
+
+        </div>
+
+
+
+
+
+    </section>
+
+
+
+
+     <!--about section ends-->
+
+
+
+         <!--menu section ends-->
+
+         <section class="menu" id="menu">
+
+            <h3 class="sub-heading"> menu</h3>
+            <h1 class="heading">today's offers</h1>
+
+            <div class="menu-box-container">
+
+                <div class="menu-box">
+
+                    <div class="menu-image">
+                        <img src="MayyazhippuzhayudeTheerangalil.jpg.webp" alt="">
+                    </div>
+                       
+                    
+
+                     <div class="menu-content">
+                        <div class="menu-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Mayyazhippuzhayude<br>Theerangalil</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, alias soluta a corporis accusamus, sunt magni velit reprehenderit assumenda at officiis autem ratione. Hic inventore et eum perferendis harum ullam!</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">200.Rs</span>
+                     </div>
+
+                </div>
+
+
+
+                <div class="menu-box">
+
+                    <div class="menu-image">
+                        <img src="eng1.jpg" alt="">
+                      
+                     </div>
+
+                     <div class="menu-content">
+                        <div class="menu-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Mieko</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, alias soluta a corporis accusamus, sunt magni velit reprehenderit assumenda at officiis autem ratione. Hic inventore et eum perferendis harum ullam!</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">180.Rs</span>
+                     </div>
+
+                </div>
+
+                <div class="menu-box">
+
+                    <div class="menu-image">
+                        <img src="hindhi1.webp" alt="">
+                    </div>
+                      
+                    
+
+                     <div class="menu-content">
+                        <div class="menu-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Godhan</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, alias soluta a corporis accusamus, sunt magni velit reprehenderit assumenda at officiis autem ratione. Hic inventore et eum perferendis harum ullam!</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">150.Rs</span>
+                     </div>
+
+                </div>
+
+
+
+                <div class="menu-box">
+
+                    <div class="menu-image">
+                        <img src="ithihasam.jpg" alt="">
+                    </div>
+
+                     <div class="menu-content">
+                        <div class="menu-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Ghasakinte ithihasam</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, alias soluta a corporis accusamus, sunt magni velit reprehenderit assumenda at officiis autem ratione. Hic inventore et eum perferendis harum ullam!</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">230.Rs</span>
+                     </div>
+
+                </div>
+
+
+
+                <div class="menu-box">
+
+                    <div class="menu-image">
+                        <img src="Godan-Munshi-Premchand.jpg" alt="">
+                    </div>
+                      
+                    
+
+                     <div class="menu-content">
+                        <div class="menu-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Godan</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, alias soluta a corporis accusamus, sunt magni velit reprehenderit assumenda at officiis autem ratione. Hic inventore et eum perferendis harum ullam!</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">120.Rs</span>
+                     </div>
+
+                </div>
+
+
+
+                <div class="menu-box">
+
+                    <div class="menu-image">
+                        <img src="hindhi2.webp" alt="">
+                    </div>
+                       
+                    
+
+                     <div class="menu-content">
+                        <div class="menu-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Dhosthanom</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, alias soluta a corporis accusamus, sunt magni velit reprehenderit assumenda at officiis autem ratione. Hic inventore et eum perferendis harum ullam!</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">250.Rs</span>
+                     </div>
+
+                </div>
+
+
+
+
+                <div class="menu-box">
+
+                    <div class="menu-image">
+                        <img src="Oru-Desathinte-Katha-pdf-667x1024.jpg.webp" alt="">
+                    </div>
+                      
+                    
+
+                     <div class="menu-content">
+                        <div class="menu-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Oru Desathinte Katha</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, alias soluta a corporis accusamus, sunt magni velit reprehenderit assumenda at officiis autem ratione. Hic inventore et eum perferendis harum ullam!</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">150.Rs</span>
+                     </div>
+
+                </div>
+
+
+
+                <div class="menu-box">
+
+                    <div class="menu-image">
+                        <img src="the-night-ship-9781982180829_lg.jpg" alt="">
+                    </div>
+                       
+                    
+
+                     <div class="menu-content">
+                        <div class="menu-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>The Night Ship</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, alias soluta a corporis accusamus, sunt magni velit reprehenderit assumenda at officiis autem ratione. Hic inventore et eum perferendis harum ullam!</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">250.Rs</span>
+                     </div>
+
+                </div>
+
+
+
+                <div class="menu-box">
+
+                    <div class="menu-image">
+                        <img src="hindhi3.jpg" alt="">
+                    </div>
+                       
+                   
+
+                     <div class="menu-content">
+                        <div class="menu-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>one murder</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, alias soluta a corporis accusamus, sunt magni velit reprehenderit assumenda at officiis autem ratione. Hic inventore et eum perferendis harum ullam!</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">110.Rs</span>
+                     </div>
+
+                </div>
+
+
+
+
+
+            </div>
+
+        </section>
+
+
+
+          <!--menu section ends-->
+
+
+
+
+            <!--Review section starts-->
+
+            <section class="review" id="review">
+
+                <h3 class="sub-heading">customer's review </h3>
+                <h1 class="heading">what they say</h1>
+
+                <div class="swiper review-slider">
+                    <div class="swiper-wrapper review-wrapper">
+                       
+                       
+                       
+                       
+                       
+                       
+                        <div class="swiper-slide review-slide">
+                            <i class="fas fa-quote-right"></i>
+                            <div class="review-user">
+
+                                <img src="moorgan.webp" alt="">
+                                <div class="review-user-info">
+                                    <h3>morgan </h3>
+                                    <div class="review-stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+    
+                                </div>
+
+                            </div>
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, iure velit? Facere labore doloribus,</p>
+                        </div>
+
+
+                        <div class="swiper-slide review-slide">
+                            <i class="fas fa-quote-right"></i>
+                            <div class="review-user">
+
+                                <img src="taylor.webp" alt="">
+                                <div class="review-user-info">
+                                    <h3>Taylor Swift </h3>
+                                    <div class="review-stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+    
+                                </div>
+
+                            </div>
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, iure velit? Facere labore doloribus,</p>
+                        </div>
+
+
+                        <div class="swiper-slide review-slide">
+                            <i class="fas fa-quote-right"></i>
+                            <div class="review-user">
+
+                                <img src="Tom-Cruise-2013.jpg.webp" alt="">
+                                <div class="review-user-info">
+                                    <h3>Tom cruise</h3>
+                                    <div class="review-stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+    
+                                </div>
+
+                            </div>
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, iure velit? Facere labore doloribus,</p>
+                        </div>
+
+
+                        <div class="swiper-slide review-slide">
+                            <i class="fas fa-quote-right"></i>
+                            <div class="review-user">
+
+                                <img src="mamooty.jpeg" alt="">
+                                <div class="review-user-info">
+                                    <h3>Mamootty</h3>
+                                    <div class="review-stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+    
+                                </div>
+
+                            </div>
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, iure velit? Facere labore doloribus,</p>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+
+              <!--Review section ends-->
+
+
+               <!--Order section starts-->
+
+               <section class="order" id="order">
+
+                <h3 class="sub-heading">order now</h3>
+                <h1 class="heading">free and fast</h1>
+
+                <form action="">
+
+                    <div class="order-inputbox">
+                        <div class="order-input">
+                            <span>your name</span>
+                            <input type="name" placeholder="enter your name">
+                        </div>
+                        <div class="order-input">
+                            <span>your number</span>
+                            <input type="number" placeholder="enter your number">
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="order-inputbox">
+                        <div class="order-input">
+                            <span>your order</span>
+                            <input type="name" placeholder="enter food name">
+                        </div>
+                        <div class="order-input">
+                            <span>additional food</span>
+                            <input type="number" placeholder="extra with food">
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="order-inputbox">
+                        <div class="order-input">
+                            <span>how much</span>
+                            <input type="number" placeholder="howmany orders">
+                        </div>
+                        <div class="order-input">
+                            <span>Date and time</span>
+                            <input type="datetime-local">
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="order-inputbox">
+                        <div class="order-input">
+                            <span>your address</span>
+                           <textarea name="" placeholder="enter your address"   id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="order-input">
+                            <span>your message</span>
+                           <textarea name="" placeholder="enter your message"   id="" cols="30" rows="10"></textarea>
+                       </div>
+
+                    </div>
+
+
+                    <input type="submit" value="order now" class="btn">
+
+
+
+
+
+
+                </form>
+
+               </section>
+
+
+
+
+
+                <!--Order section ends-->
+
+                 <!--footer section starts-->
+
+                <section class="footer">
+
+                    <div class="footer-box-container">
+
+                        <div class="footer-box">
+                            <h3>locations</h3>
+                            <a href="#">India</a>
+                            <a href="#">Germany</a>
+                            <a href="#">Australia</a>
+                            <a href="#">USA</a>
+                            <a href="#">Denmark</a>
+                         </div>
+
+
+
+                         <div class="footer-box">
+                            <h3>quick links</h3>
+                            <a href="#">home</a>
+                            <a href="#">dishes</a>
+                            <a href="#">about</a>
+                            <a href="#">menu</a>
+                            <a href="#">review</a>
+                            <a href="#">order</a>
+                            
+                         </div>
+
+
+                         <div class="footer-box">
+                            <h3>contact info</h3>
+                            <a href="#">9544665485</a>
+                            <a href="#">9865234152</a>
+                            <a href="#">jenitjose@gmail.com</a>
+                            <a href="#">jenitjoseph@gmail.com</a>
+                            <a href="#">kochi, India, 640678</a>
+                            <a href="#">order</a>
+                            
+                         </div>
+
+
+
+                         <div class="footer-box">
+                            <h3>follow us</h3>
+                            <a href="#">Instagram</a>
+                            <a href="#">facebook</a>
+                            <a href="#">youtube</a>
+                            <a href="#">twitter</a>
+                            <a href="#">linkedin</a>
+                         </div>
+
+                       
+                </div>     
+                       
+                         <div class="footer-credit">copyright @ 2023 by <span>mr.web designer</span></div>
+
+                      
+
+
+
+                         
+
+
+
+
+                  
+
+               </section>
+
+
+
+
+
+
+
+
+
+
+                  <!--footer section ends-->
+
+
+                   <!--loader section -->
+
+                   <div class="loader-container">
+                    <img src="web-designing-institute.jpg" alt="">
+
+                   </div>
+
+
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+       <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
